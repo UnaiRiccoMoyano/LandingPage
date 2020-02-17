@@ -1,0 +1,297 @@
+
+#bInicio { background: linear-gradient(180deg, rgb(221, 100, 30) 0%, rgba(255, 255, 255, 0) 100%), rgb(156, 78, 45);
+     background-repeat: no-repeat; }
+
+#hInicio { 
+     left: 0px;
+     right: 0px;
+     height: 100px;
+     width: 100%;
+     top: 0px;
+     position: absolute; 
+     background: linear-gradient(180deg, #D06224 0%, rgba(255, 255, 255, 0) 100%), #8D4C30; }
+
+i { position: absolute;
+     font-size: 100px ;
+     left: 50px;
+     top: 0px;
+     animation-name: icono;
+     animation-duration: 1.6s;
+     color: rgba(0, 0, 0, 0.938);
+}
+
+#centradoLogo {
+     position: absolute;
+     font-size: 100px ;
+     left: 330px;
+     top: 0px;
+     animation-name: logo;
+     animation-duration: 1.6s;
+     color: rgba(0, 0, 0, 0.938);
+}
+
+@keyframes icono {
+     0% {  color: rgba(0, 0, 0, 0); left: -50px; }
+     10% {  color: rgba(0, 0, 0, 0.1); left: -40px;  }
+     20% {  color: rgba(0, 0, 0, 0.2); left: -30px; }
+     30% {  color: rgba(0, 0, 0, 0.3); left: -20px;  }
+     40% {  color: rgba(0, 0, 0, 0.4); left: -10px;  }
+     50% {  color: rgba(0, 0, 0, 0.5); left: 0px;  }
+     60% {  color: rgba(0, 0, 0, 0.6); left: 10px;  }
+     70% {  color: rgba(0, 0, 0, 0.7); left: 20px;  }
+     80% {  color: rgba(0, 0, 0, 0.8); left: 30px;  }  
+     90% {  color: rgba(0, 0, 0, 0.9); left: 40px;  }    
+     100% { color: rgba(0, 0, 0, 0.938); left: 50px; }
+}
+
+@keyframes logo {
+     0% {  color: rgba(0, 0, 0, 0); }
+     10% {  color: rgba(0, 0, 0, 0.1);   }
+     20% {  color: rgba(0, 0, 0, 0.2);  }
+     30% {  color: rgba(0, 0, 0, 0.3);   }
+     40% {  color: rgba(0, 0, 0, 0.4);   }
+     50% {  color: rgba(0, 0, 0, 0.5);   }
+     60% {  color: rgba(0, 0, 0, 0.6); }
+     70% {  color: rgba(0, 0, 0, 0.7);  }
+     80% {  color: rgba(0, 0, 0, 0.8);  }  
+     90% {  color: rgba(0, 0, 0, 0.9);   }    
+     100% { color: rgba(0, 0, 0, 0.938);  }
+}
+
+img { position: absolute;
+     width: 230px;
+     height: 110px;
+     left: 185px;
+     top: 2px;
+     animation-name: flash;
+     animation-duration: 1.6s;
+
+ }
+
+ @keyframes flash {
+     0% {  opacity: 0; }
+     10% { opacity: 0.1;  }
+     20% { opacity: 0.2; }
+     30% { opacity: 0.3; }
+     40% { opacity: 0.4;   }
+     50% { opacity: 0.5;  }
+     60% { opacity: 0.6;  }
+     70% { opacity: 0.7; }
+     80% { opacity: 0.8;   }  
+     90% { opacity: 0.9;   }    
+     100% {opacity: 1%; }
+ }
+
+#username { 
+     position: absolute;
+     width: 100px;
+     height: 23px;
+     left: 523px;
+     top: 27px;
+     font-family: Oxygen;
+     font-style: normal;
+     font-weight: normal;
+     line-height: normal;
+     font-size: 20px;
+     color: #000000;
+      }
+
+#inUsername { position: absolute;
+     width: 158px;
+     height: 29px;
+     left: 615px;
+     top: 41px;
+     background: #FFFFFF; }
+
+#password { position: absolute;
+     width: 89px;
+     height: 23px;
+     left: 797px;
+     top: 27px;  
+     font-family: Oxygen;
+     font-style: normal;
+     font-weight: normal;
+     line-height: normal;
+     font-size: 20px;
+     color: #000000;
+      }
+
+#inPassword { position: absolute;
+     width: 158px;
+     height: 29px;
+     left: 893px;
+     top: 41px;
+     background: #FFFFFF; }
+
+header button { position: absolute;
+         height: 38px;
+         width: 131px;
+         left: 1091px;
+         top: 40px;
+         bottom: 13.64%;
+         background: rgba(255, 6, 6, 0.315);
+         border-radius: 10px; }
+
+button p { position: absolute;
+     left: 32px;
+     top: -17px;
+     bottom: 0%;
+     font-family: Open Sans;
+     font-style: normal;
+     font-weight: normal;
+     line-height: normal;
+     font-size: 22px;
+     color: #FFFFFF;}
+
+video { position:absolute;
+     top: 100px;
+     left:0px;
+     }
+
+#divisor { 
+     
+     position: absolute;
+     width: 1020.02px;
+     height: 0px;
+     left: 112px;
+     top: 830px;
+     border: 1px solid rgb(0, 0, 0);}
+
+#linkSing button { 
+     position: absolute;
+     width: 292px;
+     height: 62px;
+     left: 63px;
+     top: 900px;
+     background: rgb(0, 0, 0);
+     border-radius: 20px; }
+
+#linkSing a {
+     position: absolute;
+     left: 48px;
+     top: 13px;
+     font-family: Open Sans;
+     font-style: normal;
+     font-weight: normal;
+     line-height: normal;
+     font-size: 30px; 
+     color: rgba(255, 255, 255, 0.993);
+     border-radius: 20px; }
+
+#descripcion { 
+     position: absolute;
+     width: 235px;
+     height: 135px;
+     left: 522px;
+     top: 831px;
+     font-family: Open Sans;
+     font-style: normal;
+     font-weight: normal;
+     line-height: normal;
+     font-size: 24px;
+     color: #000000;
+     }
+
+#cuadrado1 { 
+
+position: absolute;
+width: 600px;
+height: 750px;
+left: 346px;
+top: 135px;
+background: rgba(0, 0, 0, 0.4);
+}
+
+#cuadrado2 { 
+     position: absolute;
+     width: 600px;
+     height: 600px;
+     left: 346px;
+     top: 135px;
+     background: rgba(0, 0, 0, 0.7);
+     animation-name: visual;
+     animation-duration: 2s;
+ }
+
+
+@keyframes visual {
+     0% { height: 0px; width: 600px; }
+     25% { height: 150px; width: 600px; }
+     50% { height: 300px; width: 600px; }
+     75% { height: 450px; width: 600px; }
+     100% { height: 600px; width: 600px; }
+
+}
+
+@keyframes colorche {  
+     0% { background-color:rgba(255, 6, 6, 0);  }
+     25%{ background-color:rgba(221, 100, 30, 0.5); }
+     50% { background-color: rgb(221, 100, 30); }
+     75% { background-color: rgba(221, 100, 30, 0.5); }
+     100% { background-color: rgba(107, 39, 0, 0); }
+}
+
+h2 { 
+
+position: absolute;
+width: 500px;
+height: 60px;
+left: 400px;
+top: 139px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 35px;
+color: #FFFFFF; }
+
+#espacio { 
+     position: relative;
+     height: 100px;
+     width: 98%;
+     top: 400px;
+}
+
+#bAgradecimientos {
+     background-image: url(astellia2.jpg);
+     background-size: cover;
+}
+
+#hAgradecimientos {  left: 0px;
+     right: 0px;
+     height: 100px;
+     width: 100%;
+     top: 0px;
+     position: absolute; 
+     background: rgba(148, 77, 46, 0.5);}
+
+h6 { position: absolute;
+     width: 450px;
+     height: 270px;
+     left: 451px;
+     top: 197px;
+     font-family: Open Sans;
+     font-style: normal;
+     font-weight: normal;
+     line-height: normal;
+     font-size: 23px;
+     color: #FFFFFF; }
+
+#descarga { position: absolute;
+     width: 243px;
+     height: 60px;
+     left: 505px;
+     top: 486px;    
+     background: #944D2E;
+     border: 3px solid #B9B9B9;
+     border-radius: 5px;
+     position: absolute;
+     font-family: Open Sans;
+     font-style: normal;
+     font-weight: normal;
+     line-height: normal;
+     font-size: 23px;
+     color: #000000;}
+
+
+
